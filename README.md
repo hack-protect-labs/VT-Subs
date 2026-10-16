@@ -23,3 +23,21 @@ Ensure you have the following dependencies installed on your system:
 **Installation (Debian/Ubuntu):**
 ```bash
 sudo apt update && sudo apt install curl jq -y
+
+⚙️ Usage
+
+1. Clone the repository and make the script executable:
+
+chmod +x vt_subs.sh
+
+2. Run the script:
+
+./vt_subs.sh
+
+3. Follow the interactive prompts:
+
+Enter your VirusTotal API key (you will be prompted to save it for future use).
+Enter the target domain (e.g., example.com).
+
+
+
